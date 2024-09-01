@@ -1,7 +1,7 @@
 
-# MambaRainPlace
+# DiffuPlace
 
-This repository contains the implementation of the paper "Place Recognizer Meet Rainy Day: Towards Robust Visual Place Recognition for Mobile Robots with an End-to-end Enhanced Net". The code is structured similarly to the [MambaPlace](https://github.com/CV4RA/MambaPlace) repository and provides a complete end-to-end pipeline for visual place recognition under rainy conditions.
+This repository contains the implementation of the paper "Place Recognizer Meet Rainy Day: Towards Robust Visual Place Recognition for Mobile Robots with an End-to-end Enhanced Net". 
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This repository contains the implementation of the paper "Place Recognizer Meet 
 
 ## Introduction
 
-diffuPlace is a robust visual place recognition (VPR) system designed for mobile robots to perform place recognition under adverse weather conditions, particularly rainy scenes. The system integrates a multi-scale sampling network (MSSN) for rain removal and a multi-stage feature pyramid network (MSFPN) for enhanced feature extraction.
+DiffuPlace is a robust visual place recognition (VPR) system designed for mobile robots to perform place recognition under adverse weather conditions, particularly rainy scenes. The system integrates a multi-scale sampling network (MSSN) for rain removal and a multi-stage feature pyramid network (MSFPN) for enhanced feature extraction.
 
 Key components:
 - **MSSN:** A lightweight network for removing rain effects from images.
@@ -47,8 +47,8 @@ pip install -r requirements.txt
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/MambaRainPlace.git
-cd MambaRainPlace
+git https://github.com/CV4RA/Diffu-VPR.git
+cd Diffu-VPR
 ```
 
 ## Usage
@@ -79,7 +79,7 @@ Example configuration:
 
 ```yaml
 model:
-  name: RainyVPRNet
+  name: Diffu-VPR
   MSSN:
     channels: 16
     num_dense_blocks: 5
