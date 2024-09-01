@@ -18,7 +18,7 @@ This repository contains the implementation of the paper "Place Recognizer Meet 
 
 ## Introduction
 
-MambaRainPlace is a robust visual place recognition (VPR) system designed for mobile robots to perform place recognition under adverse weather conditions, particularly rainy scenes. The system integrates a multi-scale sampling network (MSSN) for rain removal and a multi-stage feature pyramid network (MSFPN) for enhanced feature extraction.
+diffuPlace is a robust visual place recognition (VPR) system designed for mobile robots to perform place recognition under adverse weather conditions, particularly rainy scenes. The system integrates a multi-scale sampling network (MSSN) for rain removal and a multi-stage feature pyramid network (MSFPN) for enhanced feature extraction.
 
 Key components:
 - **MSSN:** A lightweight network for removing rain effects from images.
