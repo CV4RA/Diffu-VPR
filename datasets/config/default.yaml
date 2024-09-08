@@ -1,0 +1,13 @@
+model:
+  name: RainyVPRNet
+  MSSN:
+    channels: 16
+    num_dense_blocks: 5
+  MSFPN:
+    vlad_clusters: 64
+    dim: 128
+training:
+  optimizer: AdamW
+  learning_rate: 0.0005
+  batch_size: 16
+  epochs: 50
