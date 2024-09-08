@@ -8,13 +8,13 @@ This repository contains the implementation of the paper "Place Recognizer Meet 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Results](#results)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Training](#training)
   - [Testing](#testing)
 - [Configuration](#configuration)
 - [Dataset](#dataset)
-- [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,6 +27,13 @@ Key components:
 - **MSFPN:** A pyramid transformer-based network for extracting multi-scale features and aggregating them into global descriptors.
 - **Matcher:** A triplet-based place matcher that handles challenging VPR tasks by effectively distinguishing between similar and dissimilar places.
 
+## Results
+
+The model is evaluated on standard VPR benchmarks such as RainPlace and RainSim. Precision-Recall and Recall@N metrics are used to assess performance. Example results will be provided after running the testing script.
+
+![alt text](result-1.png)
+![alt text](result-2.png)
+![alt text](result-3.png)
 ## Installation
 
 ### Requirements
@@ -113,13 +120,6 @@ dataset/
 
 Modify the dataset paths in the configuration file to point to your dataset directory.
 
-## Results
-
-The model is evaluated on standard VPR benchmarks such as RainPlace and RainSim. Precision-Recall and Recall@N metrics are used to assess performance. Example results will be provided after running the testing script.
-
-![alt text](result-1.png)
-![alt text](result-2.png)
-![alt text](result-3.png)
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue if you find any bugs or have suggestions for improvements.
