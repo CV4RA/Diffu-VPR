@@ -11,7 +11,6 @@ training:
   learning_rate: 0.0005
   batch_size: 16
   epochs: 50
-
 dataset:
   train: /path/to/train/dataset
   test: /path/to/test/dataset
