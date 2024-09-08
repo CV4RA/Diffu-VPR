@@ -3,6 +3,8 @@
 
 This repository contains the implementation of the paper "Place Recognizer Meet Rainy Day: Towards Robust Visual Place Recognition for Mobile Robots with an End-to-end Enhanced Net". 
 
+![alt text](framework.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -115,6 +117,9 @@ Modify the dataset paths in the configuration file to point to your dataset dire
 
 The model is evaluated on standard VPR benchmarks such as RainPlace and RainSim. Precision-Recall and Recall@N metrics are used to assess performance. Example results will be provided after running the testing script.
 
+![alt text](result-1.png)
+![alt text](result-2.png)
+![alt text](result-3.png)
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue if you find any bugs or have suggestions for improvements.
